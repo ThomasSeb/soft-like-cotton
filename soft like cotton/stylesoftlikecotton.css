@@ -1,0 +1,92 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body,html{height: 100%;}
+
+body{
+	background-color: #FEF8F2;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+#main{
+
+max-width:100%;
+min-height:100%;
+margin:0 auto;
+position:relative;
+
+}
+
+
+.header{
+	margin-top: 50px;
+	position: center;
+
+}
+
+h1{
+	font-size: 50px;
+	text-shadow: 2px 2px 3px grey;
+	animation-duration: 2s;
+	animation-name: slidein;
+
+}
+
+@keyframes slidein{
+	from {
+		margin-left: 100%;
+		width: 200%;
+	}
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+	50% {
+  margin-left: 50%;
+  width: 150%;
+}
+}
+
+
+#contenu{
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+}
+
+img{
+	border: 2px black solid;
+	border-radius: 25px;
+	box-shadow: 5px 5px 15px grey;
+}
+
+
+.photo{
+	margin: 100px;
+
+}
+
+.test{
+	font-size: 100px
+}
+
+footer{
+	background-color: #676767;
+	position: absolute;
+	bottom:0;
+	width:100%;
+	padding-top:50px;
+	height:50px;
+	text-align: right;
+	color: #fff;
+
+}
+
+#nom{
+	float: right;
+	margin-right: 50px;
+}
